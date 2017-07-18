@@ -1,0 +1,77 @@
+
+= Quick markup reference
+
+|===
+|Convention|Markup|Example rendered output
+
+|Code blocks
+a|....
+Use the following syntax for the `oc` command:
+[subs="+quotes,attributes"]
+----
+$ *oc <action> <object_type> <object_name_or_id>*
+----
+....
+
+a|Use the following syntax for the `oc` command:
+[subs="+quotes,attributes"]
+----
+$ *oc <action> <object_type> <object_name_or_id>*
+----
+
+|Inline commands, operations, and user input
+a|$$`oc get`$$
+
+$$`GET`$$
+
+$$Answer by typing `Yes` or `No` when prompted.$$
+a|Use the `oc get` command to get a list of services that are currently defined.
+
+The `GET` operation can be used to do something.
+
+Answer by typing `Yes` or `No` when prompted.
+
+|System or software variable to be replaced by the user
+a|$$`<project>`$$
+
+$$`<deployment>`$$
+
+$$`package_name`$$
+
+a|
+Use the following command to roll back a deployment, specifying the deployment name: `oc rollback <deployment>`
+
+Install the `gimp` package.
+
+|System or software configuration parameter or environment variable
+a|$$`*ENVIRONMENT_VARIABLE*`$$
+
+$$`*PARAMETER*`$$
+
+a|Use the `*IP_ADDRESS*` environment variable for the server IP address.
+
+The `*MAX_PODS*` parameter limits the number of pods you can have.
+
+|System term, daemon, service, or software package
+a|$$*system item*$$
+
+$$*daemon*$$
+
+$$*service*$$
+
+$$Select *menu:File[Save]*$$
+
+a|*HTTPD*
+
+*NetworkManager*
+
+Select *File ▸ Save*
+
+|Filenames or directory paths
+a|$$`filename`$$
+
+$$`directory`$$
+a|Edit the `kubeconfig` file as required and save your changes.
+
+The `express.conf` configuration file is located in the `/usr/share` directory.
+|===

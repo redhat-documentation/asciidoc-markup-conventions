@@ -1,0 +1,17 @@
+
+= Internal Cross-References
+
+Use `xref` to build cross references to other topics in your document or within your repository.
+....
+
+----
+Cross references use anchors to reference other sections within your document:
+xref:sec-anchors[Anchors].
+----
+....
+
+Renders as:
+====
+Cross references use anchors to reference other sections within your document:
+xref:sec-anchors[Anchors].
+====

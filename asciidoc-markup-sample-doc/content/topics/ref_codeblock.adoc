@@ -1,0 +1,47 @@
+
+= Code blocks
+Code blocks are used to show examples of command screen outputs,
+or configuration files.
+When using command blocks always use the actual values
+for any items that a user would normally replace.
+
+For all code blocks, you must include an empty line above a code block.
+
+Acceptable:
+
+....
+Lorem ipsum
+
+----
+$ lorem.sh
+----
+....
+
+Not acceptable:
+
+....
+Lorem ipsum
+----
+$ lorem.sh
+----
+....
+
+Without the line spaces the content is likely to be not parsed correctly.
+
+For commands in codeblocks, *bold* the relevant command sections.
+
+....
+Find your CPU information.
+
+----
+$ *lscpu*
+----
+....
+
+This renders as
+
+Find your CPU information.
+
+----
+$ *lscpu*
+----

@@ -1,0 +1,12 @@
+
+= Formatting
+
+include::ref_codeblock.adoc[leveloffset=+1]
+
+include::ref_inline-code.adoc[leveloffset=+1]
+
+include::ref_inline-command.adoc[leveloffset=+1]
+
+include::ref_lists.adoc[leveloffset=+1]
+
+include::ref_format-reference.adoc[leveloffset=+1]

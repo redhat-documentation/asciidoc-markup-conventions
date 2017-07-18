@@ -1,0 +1,28 @@
+
+= Quick Formatting Reference
+
+.User accounts and info
+|===
+|Markup in command syntax|Description|Substitute value in Example block
+
+|<username>
+|Name of user account
+|user@example.com
+
+|<password>
+|User password
+|password
+|===
+
+.Projects and applications
+|===
+|Markup in command syntax|Description|Substitute value in Example block
+
+|<project>
+|Name of project
+|myproject
+
+|<app>
+|Name of an application
+|myapp
+|===
