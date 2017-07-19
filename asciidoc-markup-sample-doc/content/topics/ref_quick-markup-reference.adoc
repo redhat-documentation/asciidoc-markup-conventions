@@ -74,4 +74,16 @@ $$`directory`$$
 a|Edit the `kubeconfig` file as required and save your changes.
 
 The `express.conf` configuration file is located in the `/usr/share` directory.
+
+|GUI Elements
+a|GUI $$*text*$$
+
+GUI $$btn:[button]$$
+
+GUI $$menu:File[Menu Item>Another]$$
+a|The web browser displays *404* for an unreachable URL.
+
+Press  btn:[back] to return to a prior page.
+
+Navigate to menu:File[Open>file] to open your work.
 |===
