@@ -4,6 +4,25 @@
 |===
 |Convention|Markup|Example rendered output
 
+|Anchor
+a| for simple anchors:
+$$[[anchor_name]]$$
+
+for anchors in modular content to avoid clashes:
+$$[#anchor_name_{parameter}]$$
+
+a| for simple anchors:
+
+[[anchor_name]] Section Header
+
+for anchors in modular content to avoid clashes:
+
+[#anchor_name_{parameter}] Section Header
+
+|Application name
+a|No special markup
+a| The foo application.
+
 |Code blocks
 a|....
 Use the following syntax for the `oc` command:
@@ -19,6 +38,52 @@ a|Use the following syntax for the `oc` command:
 $ *oc <action> <object_type> <object_name_or_id>*
 ----
 
+|Code - inline
+a|
+a|
+
+|Command block
+a|
+a|
+
+|Command - inline
+a|$$[command]*$$
+a|use [command]*yum to install new packages.
+
+|Emphasis for a term
+a|$$_emphasis_$$
+a|Use _this_ approach.
+
+|Filenames or directory paths
+a|$$`filename`$$
+
+$$`directory`$$
+a|Edit the `kubeconfig` file as required and save your changes.
+
+The `express.conf` configuration file is located in the `/usr/share` directory.
+
+|GUI Elements
+a|GUI $$*text*$$
+
+GUI $$btn:[button]$$
+
+GUI $$menu:File[Menu Item>Another]$$
+a|The web browser displays *404* for an unreachable URL.
+
+Press  btn:[back] to return to a prior page.
+
+Navigate to menu:File[Open>file] to open your work.
+
+|Images
+a|Images inline:
+
+Image block:
+
+
+a|Images inline:
+
+Image block:
+
 |Inline commands, operations, and user input
 a|$$`oc get`$$
 
@@ -30,6 +95,55 @@ a|Use the `oc get` command to get a list of services that are currently defined.
 The `GET` operation can be used to do something.
 
 Answer by typing `Yes` or `No` when prompted.
+|Lists
+a|ordered list:
+
+....
+. first item
+. second item
+. third item
+....
+
+unordered list:
+....
+* this
+* that
+* the other
+....
+
+definition or labeled list
+....
+terma:: description
+termb:: description
+....
+
+a|ordered list:
+
+. first item
+. second item
+. third item
+
+unordered list:
+
+* this
+* that
+* the other
+
+definition  or labeled list
+
+terma:: description
+termb:: description
+|Literal value
+a|$$`true`$$
+a|`true`
+
+|Package
+a|Install the $$[package]*foo$$ package.
+a|Install the [package]*foo package.
+
+|Product name
+a|No special markup
+a|Red Hat Enterprise Linux
 
 |System or software variable to be replaced by the user
 a|$$`<project>`$$
@@ -66,24 +180,4 @@ a|*HTTPD*
 *NetworkManager*
 
 Select *File ▸ Save*
-
-|Filenames or directory paths
-a|$$`filename`$$
-
-$$`directory`$$
-a|Edit the `kubeconfig` file as required and save your changes.
-
-The `express.conf` configuration file is located in the `/usr/share` directory.
-
-|GUI Elements
-a|GUI $$*text*$$
-
-GUI $$btn:[button]$$
-
-GUI $$menu:File[Menu Item>Another]$$
-a|The web browser displays *404* for an unreachable URL.
-
-Press  btn:[back] to return to a prior page.
-
-Navigate to menu:File[Open>file] to open your work.
 |===
