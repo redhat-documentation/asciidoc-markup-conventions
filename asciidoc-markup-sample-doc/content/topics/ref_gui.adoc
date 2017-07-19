@@ -1,2 +1,14 @@
 
 = GUI Elements
+
+GUI elements are composed of text, buttons, and menu items.
+
+.GUI text
+
+Use simple bold for a GUI text item.
+....
+The web browser displays *404* for an unreachable URL.
+....
+
+This renders as:
+The web browser displays *404* for an unreachable URL.
