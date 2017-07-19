@@ -1,10 +1,19 @@
 
+:numbered!:
 include::topics/ref_topic-metadata.adoc[leveloffset=+1]
 
-include::topics/assembly_links.adoc[leveloffset=+1]
+include::topics/ref_internal-xref.adoc[leveloffset=+1]
+
+include::topics/ref_external-xref.adoc[leveloffset=+1]
 
 include::topics/ref_images.adoc[leveloffset=+1]
 
-include::topics/assembly_formating.adoc[leveloffset=+1]
+include::topics/ref_codeblock.adoc[leveloffset=+1]
+
+include::topics/ref_inline-code.adoc[leveloffset=+1]
+
+include::topics/ref_lists.adoc[leveloffset=+1]
+
+include::topics/ref_format-reference.adoc[leveloffset=+1]
 
 include::topics/ref_quick-markup-reference.adoc[leveloffset=+1]

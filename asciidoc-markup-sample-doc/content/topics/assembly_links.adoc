@@ -1,8 +1,0 @@
-
-= Hyperlinks and Cross References
-Links can be used to cross-reference internal topics,
-or send customers to external information resources for further reading.
-
-include::ref_internal-xref.adoc[leveloffset=+1]
-
-include::ref_external-xref.adoc[leveloffset=+1]

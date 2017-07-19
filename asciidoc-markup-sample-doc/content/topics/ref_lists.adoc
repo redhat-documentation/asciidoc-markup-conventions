@@ -1,5 +1,6 @@
 
-=== Lists
+:numbered!:
+= Lists
 Lists are created as shown in this example:
 
 ....
