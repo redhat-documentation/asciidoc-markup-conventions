@@ -31,27 +31,35 @@ a|
 Use the following syntax for the `oc` command:
 [subs="+quotes,attributes"]
 ----
-$ *oc <action> <object_type> <object_name_or_id>*
+$ oc <action> <object_type> <object_name_or_id>
 ----
 ....
 
 a|Use the following syntax for the `oc` command:
 [subs="+quotes,attributes"]
 ----
-$ *oc <action> <object_type> <object_name_or_id>*
+$ oc <action> <object_type> <object_name_or_id>
 ----
 
 |Code - inline
-a|
-a|
+a| $$`print("Hello, World!")`$$  
+a| `print("Hello, World!")`  
 
 |Command block
 a|
+....
+----
+$ echo "Hello, World!" > hello.txt
+----
+....
 a|
+----
+$ echo "Hello, World!" > hello.txt
+----
 
 |Command - inline
-a|$$[command]*$$
-a|use [command]*yum to install new packages.
+a|$$[command]`ls -lZ /samba/share1`$$
+a|[command]`ls -lZ /samba/share1`
 
 |Emphasis for a term
 a|$$_emphasis_$$
@@ -77,15 +85,21 @@ Press  btn:[back] to return to a prior page.
 
 Navigate to menu:File[Open>file] to open your work.
 
-|Images
-a|Images inline:
+|Inline Image
+a|$$image::image.png[width=25px]$$
 
-Image block:
+a| image::image.png[width=25px]
+
+| Block Image
+a|
+....
+.Tux
+image::image.png[width=100px]
+....
+a| .Tux
+image::image.png[width=100px]
 
 
-a|Images inline:
-
-Image block:
 
 |Inline commands, operations, and user input
 a|$$`oc get`$$
@@ -141,46 +155,39 @@ a|$$`true`$$
 a|`true`
 
 |Package
-a|Install the $$[package]*foo$$ package.
-a|Install the [package]*foo package.
+a|Install the $$[package]`iscsi-initiators-utils`$$ package.
+a|Install the [package]`iscsi-initiators-utils` package.
 
 |Product name
 a|No special markup
 a|Red Hat Enterprise Linux
 
 |System or software variable to be replaced by the user
-a|$$`<project>`$$
-
-$$`<deployment>`$$
-
-$$`package_name`$$
+a|$$`_<deployment>_`$$
 
 a|
-Use the following command to roll back a deployment, specifying the deployment name: `oc rollback <deployment>`
+Use the following command to roll back a deployment, specifying the deployment name: `oc rollback _<deployment>_`
 
-Install the `gimp` package.
 
 |System or software configuration parameter or environment variable
-a|$$`*ENVIRONMENT_VARIABLE*`$$
+a|$$`_<ENVIRONMENT_VARIABLE>_`$$
 
-$$`*PARAMETER*`$$
-
-a|Use the `*IP_ADDRESS*` environment variable for the server IP address.
-
-The `*MAX_PODS*` parameter limits the number of pods you can have.
+a|Use the `_<IP_ADDRESS>_` environment variable for the server IP address.
 
 |System term, daemon, service, or software package
-a|$$*system item*$$
+a|$$`system item`$$
 
-$$*daemon*$$
+$$`daemon`$$
 
-$$*service*$$
+$$`service`$$
 
-$$Select *menu:File[Save]*$$
+$$Select menu:File[Save]$$
 
-a|*HTTPD*
+a|`HTTPD`
 
-*NetworkManager*
+`NetworkManager`
 
-Select *File ▸ Save*
+`mysql`
+
+Select menu:File[Save]
 |===
