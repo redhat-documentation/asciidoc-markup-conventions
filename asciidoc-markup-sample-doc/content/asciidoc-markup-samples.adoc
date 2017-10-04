@@ -8,11 +8,13 @@
 
 |Anchor
 a| for simple anchors:
-$$[[anchor_name]]$$
-
+....
+[[anchor_name]] Section Header
+....
 for anchors in modular content to avoid clashes:
-$$[#anchor_name_{parameter}]$$
-
+....
+[#anchor_name_{parameter}] Section Header
+....
 a| for simple anchors:
 
 [[anchor_name]] Section Header
@@ -42,7 +44,11 @@ $ oc <action> <object_type> <object_name_or_id>
 ----
 
 |Code - inline
-a| $$`print("Hello, World!")`$$  
+a| 
+....
+`print("Hello, World!")`
+....
+
 a| `print("Hello, World!")`  
 
 |Command block
@@ -58,35 +64,68 @@ $ echo "Hello, World!" > hello.txt
 ----
 
 |Command - inline
-a|$$[command]`ls -lZ /samba/share1`$$
+a|
+....
+[command]`ls -lZ /samba/share1`
+....
+
 a|[command]`ls -lZ /samba/share1`
 
 |Emphasis for a term
-a|$$_emphasis_$$
+a|
+....
+_this_ 
+....
+
 a|Use _this_ approach.
 
 |Filenames or directory paths
-a|$$`filename`$$
 
-$$`directory`$$
+a|
+....
+`kubeconfig`
+....
+
+....
+`/usr/share`
+....
+
 a|Edit the `kubeconfig` file as required and save your changes.
 
 The `express.conf` configuration file is located in the `/usr/share` directory.
 
-|GUI Elements
-a|GUI $$*text*$$
+|GUI Text
 
-GUI $$btn:[button]$$
+a| 
+....
+*404*
+....
 
-GUI $$menu:File[Menu Item>Another]$$
 a|The web browser displays *404* for an unreachable URL.
 
-Press  btn:[back] to return to a prior page.
+|GUI Button 
+a| 
+....
+btn:[Save As]
+....
 
-Navigate to menu:File[Open>file] to open your work.
+a| Press btn:[Save As] to save the file under a different name.
+
+|GUI Menu 
+
+a|
+....
+menu:File[Import>Import csv]
+....
+
+a| Navigate to menu:File[Import>Import csv] to import a csv file.
 
 |Inline Image
-a|$$image::image.png[width=25px]$$
+
+a|
+....
+image::image.png[width=25px]
+....
 
 a| image::image.png[width=25px]
 
@@ -100,18 +139,22 @@ a| .Tux
 image::image.png[width=100px]
 
 
-
 |Inline commands, operations, and user input
-a|$$`oc get`$$
+a|
+....
+`oc get`
 
-$$`GET`$$
+`GET`
 
-$$Answer by typing `Yes` or `No` when prompted.$$
+Answer by typing `Yes` or `No` when prompted.
+....
+
 a|Use the `oc get` command to get a list of services that are currently defined.
 
 The `GET` operation can be used to do something.
 
 Answer by typing `Yes` or `No` when prompted.
+
 |Lists
 a|ordered list:
 
@@ -150,12 +193,20 @@ definition  or labeled list
 
 terma:: description
 termb:: description
+
 |Literal value
-a|$$`true`$$
+a|
+....
+`true`
+....
 a|`true`
 
 |Package
-a|Install the $$[package]`iscsi-initiators-utils`$$ package.
+a|
+....
+Install the [package]`iscsi-initiators-utils` package.
+....
+
 a|Install the [package]`iscsi-initiators-utils` package.
 
 |Product name
@@ -163,25 +214,33 @@ a|No special markup
 a|Red Hat Enterprise Linux
 
 |System or software variable to be replaced by the user
-a|$$`_<deployment>_`$$
+a|
+....
+`_<deployment>_`
+....
 
 a|
 Use the following command to roll back a deployment, specifying the deployment name: `oc rollback _<deployment>_`
 
 
 |System or software configuration parameter or environment variable
-a|$$`_<ENVIRONMENT_VARIABLE>_`$$
+a|
+....
+`_<ENVIRONMENT_VARIABLE>_`
+....
 
 a|Use the `_<IP_ADDRESS>_` environment variable for the server IP address.
 
 |System term, daemon, service, or software package
-a|$$`system item`$$
 
-$$`daemon`$$
+a|
+....
+`system item`
 
-$$`service`$$
+`daemon`
 
-$$Select menu:File[Save]$$
+`service`
+....
 
 a|`HTTPD`
 
@@ -189,5 +248,4 @@ a|`HTTPD`
 
 `mysql`
 
-Select menu:File[Save]
 |===
