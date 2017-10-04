@@ -1,6 +1,6 @@
 :experimental:
 
-== AsciiDoc Mark-up Quick Reference for Red{nbsp}Hat Documentation
+= AsciiDoc Mark-up Quick Reference for Red{nbsp}Hat Documentation
 
 [stripes="none"]
 |===
