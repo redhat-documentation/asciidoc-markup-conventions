@@ -71,6 +71,8 @@ a|GUI $$*text*$$
 GUI $$btn:[button]$$
 
 GUI $$menu:File[Menu Item>Another]$$
+
+NOTE: For button and menu, add the $$:experimental:$$ attribute to your files.
 a|The web browser displays *404* for an unreachable URL.
 
 Press  btn:[back] to return to a prior page.
