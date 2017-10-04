@@ -155,6 +155,16 @@ The `GET` operation can be used to do something.
 
 Answer by typing `Yes` or `No` when prompted.
 
+| Link (external)
+
+a|
+....
+link:http://www.redhat.com[Red Hat]
+....
+
+a| link:http://www.redhat.com[Red Hat]
+
+
 |Lists
 a|.Ordered list
 ----
@@ -219,7 +229,11 @@ a|No special markup
 a|Red Hat Enterprise Linux
 
 |Reference to Red Hat guides
-a|\link:__LINK_URL__[\_Guide Title_]
+a|
+....
+link:http://www.example.com[_Guide Title_]
+....
+
 a|See the JBoss EAP link:https://access.redhat.com/documentation/en-us/red_hat_jboss_enterprise_application_platform/7.0/html/getting_started_guide/[_Getting Started Guide_] for more information.
 
 |System or software variable to be replaced by the user
