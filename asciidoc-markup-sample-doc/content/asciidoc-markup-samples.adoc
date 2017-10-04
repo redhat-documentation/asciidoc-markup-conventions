@@ -92,7 +92,7 @@ a|
 
 a|Edit the `kubeconfig` file as required and save your changes.
 
-The `express.conf` configuration file is located in the `/usr/share` directory.
+The `express.conf` configuration file is located in the `/usr/share/` directory.
 
 |GUI Text
 
@@ -156,40 +156,44 @@ The `GET` operation can be used to do something.
 Answer by typing `Yes` or `No` when prompted.
 
 |Lists
-a|ordered list:
+a|.Ordered list
+----
+. First item
+. Second item
+. Third item
+----
 
-....
-. first item
-. second item
-. third item
-....
+NOTE: Do not put steps in bold.
 
-unordered list:
-....
-* this
-* that
-* the other
-....
+.Unordered list
+----
+* This
+* That
+* The other
+----
 
-definition or labeled list
-....
-terma:: description
-termb:: description
-....
+.Definition or labeled list
+----
+Term A:: description
+Term A:: description
+----
 
-a|ordered list:
+a|.Ordered list
 
-. first item
-. second item
-. third item
+. First item
+. Second item
+. Third item
 
-unordered list:
+.Unordered list
 
-* this
-* that
-* the other
+* This
+* That
+* The other
 
-definition  or labeled list
+.Definition  or labeled list
+Term A:: description
+Term B:: description
+
 
 terma:: description
 termb:: description
@@ -200,6 +204,7 @@ a|
 `true`
 ....
 a|`true`
+
 
 |Package
 a|
@@ -212,6 +217,10 @@ a|Install the [package]`iscsi-initiators-utils` package.
 |Product name
 a|No special markup
 a|Red Hat Enterprise Linux
+
+|Reference to Red Hat guides
+a|\link:__LINK_URL__[\_Guide Title_]
+a|See the JBoss EAP link:https://access.redhat.com/documentation/en-us/red_hat_jboss_enterprise_application_platform/7.0/html/getting_started_guide/[_Getting Started Guide_] for more information.
 
 |System or software variable to be replaced by the user
 a|
