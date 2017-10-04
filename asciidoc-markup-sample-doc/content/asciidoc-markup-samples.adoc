@@ -1,25 +1,25 @@
 :experimental:
-= AsciiDoc Markup Quick Reference
 
+= AsciiDoc Mark-up Quick Reference for Red{nbsp}Hat Documentation
+
+[stripes="none"]
 |===
-|Convention|Markup|Example rendered output
+|Element|Mark-up|Example rendered output
 
 |Anchor
 a| for simple anchors:
 ....
-[[anchor_name]] Section Header
+[[section_header]]
+Section Header
 ....
 for anchors in modular content to avoid clashes:
 ....
-[#anchor_name_{parameter}] Section Header
+[#section_header_{parameter}]
+Section Header
 ....
-a| for simple anchors:
+a| both cases:
 
-[[anchor_name]] Section Header
-
-for anchors in modular content to avoid clashes:
-
-[#anchor_name_{parameter}] Section Header
+*Section Header*
 
 |Application name
 a|No special markup
@@ -29,6 +29,7 @@ a| The foo application.
 a|
 ....
 Use the following syntax for the `oc` command:
+
 [subs="+quotes,attributes"]
 ----
 $ oc <action> <object_type> <object_name_or_id>
@@ -64,15 +65,15 @@ $ echo "Hello, World!" > hello.txt
 |Command - inline
 a|
 ....
-[command]`ls -lZ /samba/share1`
+Use the [command]`oc get` command to get a list of services.
 ....
 
-a|[command]`ls -lZ /samba/share1`
+a|Use the [command]`oc get` command to get a list of services.
 
 |Emphasis for a term
 a|
 ....
-_this_ 
+Use _this_ approach.
 ....
 
 a|Use _this_ approach.
@@ -81,11 +82,9 @@ a|Use _this_ approach.
 
 a|
 ....
-`kubeconfig`
-....
+Edit the `kubeconfig` file as required and save your changes.
 
-....
-`/usr/share`
+The `express.conf` configuration file is located in the `/usr/share/` directory.
 ....
 
 a|Edit the `kubeconfig` file as required and save your changes.
@@ -96,7 +95,7 @@ The `express.conf` configuration file is located in the `/usr/share/` directory.
 
 a| 
 ....
-*404*
+The web browser displays *404* for an unreachable URL.
 ....
 
 a|The web browser displays *404* for an unreachable URL.
@@ -104,19 +103,19 @@ a|The web browser displays *404* for an unreachable URL.
 |GUI Button 
 a| 
 ....
-btn:[Save As]
+Press btn:[Save As] to save the file under a different name.
 ....
 
-a| Press btn:[Save As] to save the file under a different name.
+a|Press btn:[Save As] to save the file under a different name.
 
 |GUI Menu 
 
 a|
 ....
-menu:File[Import>Import csv]
+Navigate to menu:File[Import>Import csv] to import a csv file.
 ....
 
-a| Navigate to menu:File[Import>Import csv] to import a csv file.
+a|Navigate to menu:File[Import>Import csv] to import a csv file.
 
 |Inline Image
 
@@ -137,19 +136,16 @@ a| .Tux
 image::image.png[width=100px]
 
 
-|Inline commands, operations, and user input
+|Inline operations and user input
+
 a|
 ....
-`oc get`
-
-`GET`
+The `GET` operation can be used to do something.
 
 Answer by typing `Yes` or `No` when prompted.
 ....
 
-a|Use the `oc get` command to get a list of services that are currently defined.
-
-The `GET` operation can be used to do something.
+a|The `GET` operation can be used to do something.
 
 Answer by typing `Yes` or `No` when prompted.
 
@@ -163,28 +159,30 @@ link:http://www.redhat.com[Red Hat]
 a| link:http://www.redhat.com[Red Hat]
 
 
-|Lists
-a|.Ordered list
-----
-. First item
-. Second item
-. Third item
-----
+a|Lists
 
 NOTE: Do not put steps in bold.
 
+a|
+
+....
+.Ordered list
+
+. First item
+. Second item
+. Third item
+
 .Unordered list
-----
+
 * This
 * That
 * The other
-----
 
 .Definition or labeled list
-----
+
 Term A:: description
 Term A:: description
-----
+....
 
 a|.Ordered list
 
@@ -199,19 +197,18 @@ a|.Ordered list
 * The other
 
 .Definition  or labeled list
+
 Term A:: description
 Term B:: description
 
-
-terma:: description
-termb:: description
-
 |Literal value
+
 a|
 ....
-`true`
+The function returns `true`.
 ....
-a|`true`
+
+a|The function returns `true`.
 
 
 |Package
@@ -229,44 +226,44 @@ a|Red Hat Enterprise Linux
 |Reference to Red Hat guides
 a|
 ....
-link:http://www.example.com[_Guide Title_]
+See the JBoss EAP link:guide-url[_Getting Started Guide_] for more information.
 ....
 
-a|See the JBoss EAP link:https://access.redhat.com/documentation/en-us/red_hat_jboss_enterprise_application_platform/7.0/html/getting_started_guide/[_Getting Started Guide_] for more information.
+a|See the JBoss EAP link:guide-url[_Getting Started Guide_] for more information.
 
 |System or software variable to be replaced by the user
 a|
 ....
-`_<deployment>_`
+Use the following command to roll back a deployment, specifying the deployment name: `oc rollback _<deployment>_`.
 ....
 
 a|
-Use the following command to roll back a deployment, specifying the deployment name: `oc rollback _<deployment>_`
+Use the following command to roll back a deployment, specifying the deployment name: `oc rollback _<deployment>_`.
 
 
 |System or software configuration parameter or environment variable
 a|
 ....
-`_<ENVIRONMENT_VARIABLE>_`
+Use the `_<IP_ADDRESS>_` environment variable for the server IP address.
 ....
 
 a|Use the `_<IP_ADDRESS>_` environment variable for the server IP address.
 
-|System term, daemon, service, or software package
+|System item, daemon, or service
 
 a|
 ....
-`system item`
+Include the `libfreetype` library.
 
-`daemon`
+Stop the `NetworkManager` daemon.
 
-`service`
+Start the `mysql` service.
 ....
 
-a|`HTTPD`
+a|Include the `libfreetype` library.
 
-`NetworkManager`
+Stop the `NetworkManager` daemon.
 
-`mysql`
+Start the `mysql` service.
 
 |===
