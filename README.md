@@ -1,2 +1,3 @@
 # asciidoc-markup-conventions
-Guidelines and examples for AsciiDoc mark-up conventions used in Red Hat documentations.
+
+The Asciidoc-markup-conventions initiative tries to identify the best practises and styles for the AsciiDoc Markup that is to be used in Red Hat documents. This is an overview of suggested styles.
