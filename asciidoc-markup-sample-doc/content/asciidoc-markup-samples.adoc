@@ -1,7 +1,5 @@
-
-
 :experimental:
-== AsciiDoc Markup Quick Reference
+= AsciiDoc Markup Quick Reference
 
 |===
 |Convention|Markup|Example rendered output

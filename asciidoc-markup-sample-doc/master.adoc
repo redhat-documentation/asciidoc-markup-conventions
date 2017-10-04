@@ -1,4 +1,4 @@
 // Book Title
 = Red Hat AsciiDoc Conventions Samples Guide
 
-include::content/asciidoc-markup-samples.adoc[]
+include::content/asciidoc-markup-samples.adoc[leveloffset=+1]
