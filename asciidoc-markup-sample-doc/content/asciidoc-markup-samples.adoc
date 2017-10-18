@@ -234,20 +234,20 @@ a|See the JBoss EAP link:guide-url[_Getting Started Guide_] for more information
 |System or software variable to be replaced by the user
 a|
 ....
-Use the following command to roll back a deployment, specifying the deployment name: `oc rollback _<deployment>_`.
+Use the following command to roll back a deployment, specifying the deployment name: `oc rollback _deployment_`.
 ....
 
 a|
-Use the following command to roll back a deployment, specifying the deployment name: `oc rollback _<deployment>_`.
+Use the following command to roll back a deployment, specifying the deployment name: `oc rollback _deployment_`.
 
 
 |System or software configuration parameter or environment variable
 a|
 ....
-Use the `_<IP_ADDRESS>_` environment variable for the server IP address.
+Use the `_IP_ADDRESS_` environment variable for the server IP address.
 ....
 
-a|Use the `_<IP_ADDRESS>_` environment variable for the server IP address.
+a|Use the `_IP_ADDRESS_` environment variable for the server IP address.
 
 |System item, daemon, or service
 
