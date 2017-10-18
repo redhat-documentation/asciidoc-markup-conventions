@@ -82,14 +82,14 @@ a|Use _this_ approach.
 
 a|
 ....
-Edit the `kubeconfig` file as required and save your changes.
+Edit the [filename]`kubeconfig` file as required and save your changes.
 
-The `express.conf` configuration file is located in the `/usr/share/` directory.
+The [filename]`express.conf` configuration file is located in the [filename]`/usr/share/` directory.
 ....
 
-a|Edit the `kubeconfig` file as required and save your changes.
+a|Edit the [filename]`kubeconfig` file as required and save your changes.
 
-The `express.conf` configuration file is located in the `/usr/share/` directory.
+The [filename]`express.conf` configuration file is located in the [filename]`/usr/share/` directory.
 
 |GUI Text
 
