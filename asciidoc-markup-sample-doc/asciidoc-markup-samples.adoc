@@ -28,19 +28,21 @@ a| The foo application.
 |Code blocks
 a|
 ....
-Use the following syntax for the `oc` command:
-
-[subs="+quotes,attributes"]
-----
-$ oc <action> <object_type> <object_name_or_id>
-----
+[source,java]
+public class HelloWorld {
+   public static void main(String[] args) {
+      System.out.println("Hello, World");
+   }
+}
 ....
 
-a|Use the following syntax for the `oc` command:
-[subs="+quotes,attributes"]
-----
-$ oc <action> <object_type> <object_name_or_id>
-----
+a|
+[source,java]
+public class HelloWorld {
+   public static void main(String[] args) {
+      System.out.println("Hello, World");
+   }
+}
 
 |Code - inline
 a| 
