@@ -5,7 +5,7 @@
 <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="generator" content="Asciidoctor 1.5.6.1">
-<title>Red Hat AsciiDoc Conventions Samples Guide</title>
+<title>AsciiDoc Mark-up Quick Reference for Red&#160;Hat Documentation</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
 <style>
 /* Asciidoctor default stylesheet | MIT License | http://asciidoctor.org */
@@ -427,12 +427,9 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </head>
 <body class="article">
 <div id="header">
-<h1>Red Hat AsciiDoc Conventions Samples Guide</h1>
+<h1>AsciiDoc Mark-up Quick Reference for Red&#160;Hat Documentation</h1>
 </div>
 <div id="content">
-<div class="sect1">
-<h2 id="_asciidoc_mark_up_quick_reference_for_red_hat_documentation">AsciiDoc Mark-up Quick Reference for Red&#160;Hat Documentation</h2>
-<div class="sectionbody">
 <table class="tableblock frame-all grid-all spread">
 <colgroup>
 <col style="width: 33.3333%;">
@@ -487,20 +484,21 @@ Section Header</pre>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Code blocks</p></td>
 <td class="tableblock halign-left valign-top"><div><div class="literalblock">
 <div class="content">
-<pre>Use the following syntax for the `oc` command:
-
-[subs="+quotes,attributes"]
-----
-$ oc &lt;action&gt; &lt;object_type&gt; &lt;object_name_or_id&gt;
-----</pre>
+<pre>[source,java]
+public class HelloWorld {
+   public static void main(String[] args) {
+      System.out.println("Hello, World");
+   }
+}</pre>
 </div>
 </div></div></td>
-<td class="tableblock halign-left valign-top"><div><div class="paragraph">
-<p>Use the following syntax for the <code>oc</code> command:</p>
-</div>
-<div class="listingblock">
+<td class="tableblock halign-left valign-top"><div><div class="listingblock">
 <div class="content">
-<pre>$ oc &lt;action&gt; &lt;object_type&gt; &lt;object_name_or_id&gt;</pre>
+<pre class="highlight"><code class="language-java" data-lang="java">public class HelloWorld {
+   public static void main(String[] args) {
+      System.out.println("Hello, World");
+   }
+}</code></pre>
 </div>
 </div></div></td>
 </tr>
@@ -822,11 +820,9 @@ Start the `mysql` service.</pre>
 </tbody>
 </table>
 </div>
-</div>
-</div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2017-10-18 18:11:18 CEST
+Last updated 2017-11-06 18:54:42 CET
 </div>
 </div>
 </body>
