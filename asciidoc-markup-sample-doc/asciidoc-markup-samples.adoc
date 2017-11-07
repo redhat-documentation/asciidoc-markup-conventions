@@ -1,8 +1,10 @@
 :experimental:
+:source-highlighter: prettify
+:docinfo1:
 
 = AsciiDoc Mark-up Quick Reference for Red{nbsp}Hat Documentation
 
-[stripes="none"]
+[cols="2,4,4"]
 |===
 |Element|Mark-up|Example rendered output
 
