@@ -424,6 +424,9 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 .hide-for-print{display:none!important}
 .show-for-print{display:inherit!important}}
 </style>
+<style>
+* { max-width: 100%!important; }
+</style>
 </head>
 <body class="article">
 <div id="header">
@@ -432,9 +435,9 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div id="content">
 <table class="tableblock frame-all grid-all spread">
 <colgroup>
-<col style="width: 33.3333%;">
-<col style="width: 33.3333%;">
-<col style="width: 33.3334%;">
+<col style="width: 20%;">
+<col style="width: 40%;">
+<col style="width: 40%;">
 </colgroup>
 <thead>
 <tr>
@@ -446,28 +449,13 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <tbody>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Anchor</p></td>
-<td class="tableblock halign-left valign-top"><div><div class="paragraph">
-<p>for simple anchors:</p>
-</div>
-<div class="literalblock">
+<td class="tableblock halign-left valign-top"><div><div class="literalblock">
 <div class="content">
-<pre>[[section_header]]
-Section Header</pre>
-</div>
-</div>
-<div class="paragraph">
-<p>for anchors in modular content to avoid clashes:</p>
-</div>
-<div class="literalblock">
-<div class="content">
-<pre>[#section_header_{parameter}]
+<pre>[id='section-header-{parameter}']
 Section Header</pre>
 </div>
 </div></div></td>
 <td class="tableblock halign-left valign-top"><div><div class="paragraph">
-<p>both cases:</p>
-</div>
-<div class="paragraph">
 <p><strong>Section Header</strong></p>
 </div></div></td>
 </tr>
@@ -496,7 +484,7 @@ public class HelloWorld {
 </div></div></td>
 <td class="tableblock halign-left valign-top"><div><div class="listingblock">
 <div class="content">
-<pre class="highlight"><code class="language-java" data-lang="java">public class HelloWorld {
+<pre class="prettyprint highlight"><code class="language-java" data-lang="java">public class HelloWorld {
    public static void main(String[] args) {
       System.out.println("Hello, World");
    }
@@ -824,8 +812,11 @@ Start the `mysql` service.</pre>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2017-11-07 10:53:57 CET
+Last updated 2017-11-07 13:08:07 CET
 </div>
 </div>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prettify/r298/prettify.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prettify/r298/prettify.min.js"></script>
+<script>prettyPrint()</script>
 </body>
 </html>
