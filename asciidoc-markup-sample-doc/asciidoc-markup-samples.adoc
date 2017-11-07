@@ -29,20 +29,24 @@ a| The foo application.
 a|
 ....
 [source,java]
+----
 public class HelloWorld {
    public static void main(String[] args) {
       System.out.println("Hello, World");
    }
 }
+----
 ....
 
 a|
 [source,java]
+----
 public class HelloWorld {
    public static void main(String[] args) {
       System.out.println("Hello, World");
    }
 }
+----
 
 |Code - inline
 a| 
