@@ -10,7 +10,7 @@
 
 a|Anchor
 
-NOTE: The `+++{context}+++` variable is recommended for making modules reusable. Example: `+++[id='section-header_{context}']+++`. For details, see <linke to "Reusing Modules in Assemblies" in Mod Doc Ref Guide.>
+NOTE: The `+++{context}+++` variable is recommended for making modules reusable. Example: `+++[id='section-header_{context}']+++`. For details, see the link:https://htmlpreview.github.io/?https://github.com/redhat-documentation/modular-docs/blob/master/modular-docs-manual/modular-docs-manual.html#reusing-modules[Modular Documentation Reference Guide].
 
 a|
 ....
