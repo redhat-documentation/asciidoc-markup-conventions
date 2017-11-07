@@ -9,18 +9,12 @@
 |Element|Mark-up|Example rendered output
 
 |Anchor
-a| for simple anchors:
+a|
 ....
-[[section_header]]
+[id='section-header-{parameter}']
 Section Header
 ....
-for anchors in modular content to avoid clashes:
-....
-[#section_header_{parameter}]
-Section Header
-....
-a| both cases:
-
+a|
 *Section Header*
 
 |Application name
