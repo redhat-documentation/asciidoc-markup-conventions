@@ -4,6 +4,8 @@
 
 = AsciiDoc Mark-up Quick Reference for Red{nbsp}Hat Documentation
 
+== Overview of AsciiDoc Markup Elements used in{nbsp}Red Hat Documentation
+
 [NOTE]
 ====
 Some markup examples used in this overview are based on new Asciidoctor features and they are not a part of the standard set of elements. Please, use the `:experimental:` tag in the header of your document to enable this functionality.
@@ -164,7 +166,7 @@ a|
 ....
 kbd:[key1(+key2+...)]
 ....
-a| kbd:[key1(+key2+...)]
+a| kbd:[Ctrl+Alt+Del]
 
 | Link (external)
 
@@ -284,3 +286,10 @@ Stop the `NetworkManager` daemon.
 Start the `mysql` service.
 
 |===
+
+
+== Additional Resources
+
+. link:http://asciidoctor.org/docs/user-manual/[Asciidoctor User Manual].
+. link:http://asciidoctor.org/docs/asciidoc-writers-guide/[Asciidoctor Writer's Guide].
+. link:http://asciidoctor.org/docs/asciidoc-syntax-quick-reference/[AsciiDoc Syntax Quick Reference].
