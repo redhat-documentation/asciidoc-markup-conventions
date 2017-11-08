@@ -8,10 +8,13 @@
 |===
 |Element|Mark-up|Example rendered output
 
-|Anchor
+a|Anchor
+
+NOTE: The `+++{context}+++` variable is recommended for making modules reusable. Example: `+++[id='section-header_{context}']+++`. For details, see the link:https://htmlpreview.github.io/?https://github.com/redhat-documentation/modular-docs/blob/master/modular-docs-manual/modular-docs-manual.html#reusing-modules[Modular Documentation Reference Guide].
+
 a|
 ....
-[id='section-header-{parameter}']
+[id='section-header_{variable}']
 Section Header
 ....
 a|
@@ -45,12 +48,12 @@ public class HelloWorld {
 ----
 
 |Code - inline
-a| 
+a|
 ....
 `print("Hello, World!")`
 ....
 
-a| `print("Hello, World!")`  
+a| `print("Hello, World!")`
 
 |Command block
 a|
@@ -95,22 +98,22 @@ The [filename]`express.conf` configuration file is located in the [filename]`/us
 
 |GUI Text
 
-a| 
+a|
 ....
 The web browser displays *404* for an unreachable URL.
 ....
 
 a|The web browser displays *404* for an unreachable URL.
 
-|GUI Button 
-a| 
+|GUI Button
+a|
 ....
 Press btn:[Save As] to save the file under a different name.
 ....
 
 a|Press btn:[Save As] to save the file under a different name.
 
-|GUI Menu 
+|GUI Menu
 
 a|
 ....
