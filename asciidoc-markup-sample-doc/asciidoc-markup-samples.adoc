@@ -154,6 +154,13 @@ a|The `GET` operation can be used to do something.
 
 Answer by typing `Yes` or `No` when prompted.
 
+| Keyboard shortcuts
+a|
+....
+kbd:[key1(+key2+...)]
+....
+a| kbd:[key1(+key2+...)]
+
 | Link (external)
 
 a|
