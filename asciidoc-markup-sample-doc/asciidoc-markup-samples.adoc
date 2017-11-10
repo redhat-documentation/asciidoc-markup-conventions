@@ -115,10 +115,10 @@ a|The web browser displays *404* for an unreachable URL.
 |GUI Button
 a|
 ....
-Press btn:[Save As] to save the file under a different name.
+Click btn:[Save As] to save the file under a different name.
 ....
 
-a|Press btn:[Save As] to save the file under a different name.
+a|Click btn:[Save As] to save the file under a different name.
 
 |GUI Menu
 
