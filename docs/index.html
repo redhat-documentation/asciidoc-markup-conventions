@@ -433,6 +433,23 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <h1>AsciiDoc Mark-up Quick Reference for Red&#160;Hat Documentation</h1>
 </div>
 <div id="content">
+<div class="sect1">
+<h2 id="_overview_of_asciidoc_markup_elements_used_in_red_hat_documentation">Overview of AsciiDoc Markup Elements used in&#160;Red Hat Documentation</h2>
+<div class="sectionbody">
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<div class="title">Note</div>
+</td>
+<td class="content">
+<div class="paragraph">
+<p>Some markup examples used in this overview are based on new Asciidoctor features and they are not a part of the standard set of elements. Please, use the <code>:experimental:</code> tag in the header of your document to enable this functionality.</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
 <table class="tableblock frame-all grid-all spread">
 <colgroup>
 <col style="width: 20%;">
@@ -448,10 +465,24 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </thead>
 <tbody>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Anchor</p></td>
+<td class="tableblock halign-left valign-top"><div><div class="paragraph">
+<p>Anchor</p>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<div class="title">Note</div>
+</td>
+<td class="content">
+The <code>{context}</code> variable is recommended for making modules reusable. Example: <code>[id='section-header_{context}']</code>. For details, see the <a href="https://htmlpreview.github.io/?https://github.com/redhat-documentation/modular-docs/blob/master/modular-docs-manual/modular-docs-manual.html#reusing-modules">Modular Documentation Reference Guide</a>.
+</td>
+</tr>
+</table>
+</div></div></td>
 <td class="tableblock halign-left valign-top"><div><div class="literalblock">
 <div class="content">
-<pre>[id='section-header-{parameter}']
+<pre>[id='section-header_{variable}']
 Section Header</pre>
 </div>
 </div></div></td>
@@ -571,11 +602,11 @@ The [filename]`express.conf` configuration file is located in the [filename]`/us
 <td class="tableblock halign-left valign-top"><p class="tableblock">GUI Button</p></td>
 <td class="tableblock halign-left valign-top"><div><div class="literalblock">
 <div class="content">
-<pre>Press btn:[Save As] to save the file under a different name.</pre>
+<pre>Click btn:[Save As] to save the file under a different name.</pre>
 </div>
 </div></div></td>
 <td class="tableblock halign-left valign-top"><div><div class="paragraph">
-<p>Press <b class="button">Save As</b> to save the file under a different name.</p>
+<p>Click <b class="button">Save As</b> to save the file under a different name.</p>
 </div></div></td>
 </tr>
 <tr>
@@ -634,6 +665,17 @@ Answer by typing `Yes` or `No` when prompted.</pre>
 </div></div></td>
 </tr>
 <tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Keyboard shortcuts</p></td>
+<td class="tableblock halign-left valign-top"><div><div class="literalblock">
+<div class="content">
+<pre>kbd:[Ctrl+Alt+Del]</pre>
+</div>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div><div class="paragraph">
+<p><span class="keyseq"><kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Del</kbd></span></p>
+</div></div></td>
+</tr>
+<tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Link (external)</p></td>
 <td class="tableblock halign-left valign-top"><div><div class="literalblock">
 <div class="content">
@@ -677,7 +719,7 @@ Do not put steps in bold.
 .Definition or labeled list
 
 Term A:: description
-Term A:: description</pre>
+Term B:: description</pre>
 </div>
 </div></div></td>
 <td class="tableblock halign-left valign-top"><div><div class="olist arabic">
@@ -810,9 +852,29 @@ Start the `mysql` service.</pre>
 </tbody>
 </table>
 </div>
+</div>
+<div class="sect1">
+<h2 id="_additional_resources">Additional Resources</h2>
+<div class="sectionbody">
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p><a href="http://asciidoctor.org/docs/user-manual/">Asciidoctor User Manual</a>.</p>
+</li>
+<li>
+<p><a href="http://asciidoctor.org/docs/asciidoc-writers-guide/">Asciidoctor Writer&#8217;s Guide</a>.</p>
+</li>
+<li>
+<p><a href="http://asciidoctor.org/docs/asciidoc-syntax-quick-reference/">AsciiDoc Syntax Quick Reference</a>.</p>
+</li>
+</ol>
+</div>
+</div>
+</div>
+</div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2017-11-07 13:08:07 CET
+Last updated 2017-11-13 16:53:53 CET
 </div>
 </div>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prettify/r298/prettify.min.css">
