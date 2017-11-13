@@ -200,7 +200,7 @@ a|
 .Definition or labeled list
 
 Term A:: description
-Term A:: description
+Term B:: description
 ....
 
 a|.Ordered list
