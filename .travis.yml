@@ -16,11 +16,9 @@ script:
 
 after_error: 
   - docker logs asciidoc-to-html
-  - docker logs asciidoc-to-pdf
 
 after_failure:
   - docker logs asciidoc-to-html
-  - docker logs asciidoc-to-pdf
 
 deploy:
   provider: pages
