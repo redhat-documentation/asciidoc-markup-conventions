@@ -2,7 +2,7 @@ sudo: required
 
 branches:
   only:
-  - master
+  - add-travis-ci
 
 services:
   - docker
