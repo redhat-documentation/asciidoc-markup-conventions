@@ -11,7 +11,7 @@
 Some markup examples used in this overview are based on new Asciidoctor features and they are not a part of the standard set of elements. Please, use the `:experimental:` tag in the header of your document to enable this functionality.
 ====
 
-[cols="2,4,4"]
+[cols="3,4,4"]
 |===
 |Element|Mark-up|Example rendered output
 
