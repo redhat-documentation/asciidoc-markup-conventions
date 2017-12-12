@@ -4,7 +4,7 @@
 
 = AsciiDoc Mark-up Quick Reference for Red{nbsp}Hat Documentation
 
-== Overview of AsciiDoc Markup Elements used in{nbsp}Red Hat Documentation
+== Overview of AsciiDoc Markup Elements used in Red{nbsp}Hat Documentation
 
 [NOTE]
 ====
@@ -239,8 +239,8 @@ Install the [package]`iscsi-initiators-utils` package.
 a|Install the [package]`iscsi-initiators-utils` package.
 
 |Product name
-a|No special markup
-a|Red Hat Enterprise Linux
+a|No special markup. Use +++{nbsp}+++ in the company and product names. Example: Red+++{nbsp}+++Hat JBoss+++{nbsp}+++Data+++{nbsp}+++Grid
+a|Red{nbsp}Hat JBoss{nbsp}Data{nbsp}Grid
 
 |Reference to Red Hat guides
 a|
