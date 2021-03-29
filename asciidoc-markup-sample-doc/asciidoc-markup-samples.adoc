@@ -85,10 +85,10 @@ a|Use the [command]`oc get` command to get a list of services.
 |Emphasis for a term
 a|
 ....
-Use _this_ approach.
+In this release, the terms _worker machine_ and _compute machine_ are used interchangeably.
 ....
 
-a|Use _this_ approach.
+a|In this release, the terms _worker machine_ and _compute machine_ are used interchangeably.
 
 |Filenames or directory paths
 
