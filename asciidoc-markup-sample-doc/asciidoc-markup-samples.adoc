@@ -245,10 +245,10 @@ a|Red{nbsp}Hat JBoss{nbsp}Data{nbsp}Grid
 |Reference to Red Hat guides
 a|
 ....
-See the JBoss EAP link:guide-url[_Getting Started Guide_] for more information.
+For more information, see the JBoss EAP link:https://access.redhat.com/documentation/en-us/red_hat_jboss_enterprise_application_platform/7.2/html/getting_started_guide/index[_Getting Started Guide_].
 ....
 
-a|See the JBoss EAP link:guide-url[_Getting Started Guide_] for more information.
+a|For more information, see the JBoss EAP link:https://access.redhat.com/documentation/en-us/red_hat_jboss_enterprise_application_platform/7.2/html/getting_started_guide/index[_Getting Started Guide_].
 
 |System or software variable to be replaced by the user
 a|
