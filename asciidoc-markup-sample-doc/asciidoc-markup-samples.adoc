@@ -4,7 +4,7 @@
 
 = AsciiDoc Mark-up Quick Reference for Red{nbsp}Hat Documentation
 
-== Overview of AsciiDoc Markup Elements used in Red{nbsp}Hat Documentation
+== AsciiDoc markup elements used in Red{nbsp}Hat documentation
 
 [NOTE]
 ====
@@ -288,7 +288,7 @@ Start the `mysql` service.
 |===
 
 
-== Additional Resources
+== Additional resources
 
 . link:http://asciidoctor.org/docs/user-manual/[Asciidoctor User Manual].
 . link:http://asciidoctor.org/docs/asciidoc-writers-guide/[Asciidoctor Writer's Guide].
